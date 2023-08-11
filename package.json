@@ -1,0 +1,22 @@
+{
+  "name": "nodejstraining",
+  "version": "1.0.0",
+  "description": "this is nodejs training",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm install",
+    "run":"node server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souravbikashgithub/NodejsTraining.git"
+  },
+  "author": "Sourav Bikash Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souravbikashgithub/NodejsTraining/issues"
+  },
+  "homepage": "https://github.com/souravbikashgithub/NodejsTraining#readme"
+}
