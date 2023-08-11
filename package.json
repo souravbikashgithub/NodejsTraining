@@ -5,9 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npm install",
-    "run":"node server.js"
-
+    "build": "npm install",
+    "run": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/souravbikashgithub/NodejsTraining/issues"
   },
-  "homepage": "https://github.com/souravbikashgithub/NodejsTraining#readme"
+  "homepage": "https://github.com/souravbikashgithub/NodejsTraining#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
