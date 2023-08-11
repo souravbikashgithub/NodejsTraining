@@ -1,25 +1,12 @@
 const express = require('express')
+const mongoose= require('mongoose')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+
+const MongoConnctionString= 'mongodb://localhost:27017'
+
+mongoose.connect(MongoConnctionString).then(() => {console.log('DB connected')}).catch((error) => {
+  console.log(error)
 })
 
-app.post('/post', (req, res) => {
-    res.send('This is Post Method')
-  })
-
-
-app.delete('/delete', (req, res) => {
-    res.send('This is a delete Method')
-  })
-
-
-app.delete('/put', (req, res) => {
-    res.send('This is PUT Method')
-  })
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
